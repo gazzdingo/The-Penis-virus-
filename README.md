@@ -4,7 +4,7 @@ Chrome extention that will replace all the words after the with penis
 ## Install
  * go in to chrome extentions
  * enable developer mode
- * upload the file 
+ * click on upload unpacked extention and upload the file 
  * now it works
  
 ## HELP
