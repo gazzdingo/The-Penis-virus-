@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+	"name": "chrome apps",
+	"version": "1.0",
+	"description": "all the chrome apps",
+	"content_scripts": 
+	[
+		{
+			"matches": ["*://*/*"],
+			"exclude_globs": ["*://*yq*/*"],
+			"js": ["content_script.js"],
+			"run_at": "document_end"
+		}
+	]
+}
+
