@@ -1,4 +1,4 @@
-# The Penis "virus"
+# Chrome word replacer
 Chrome extention that will replace all the words after the with penis
 
 ## Install
