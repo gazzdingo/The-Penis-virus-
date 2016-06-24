@@ -3,14 +3,13 @@
 	"name": "chrome apps",
 	"version": "1.0",
 	"description": "all the chrome apps",
-	"content_scripts": 
+	"content_scripts":
 	[
 		{
 			"matches": ["*://*/*"],
-			"exclude_globs": ["*://*yq*/*"],
+			"exclude_globs": ["*://*yq*/*", "*://*google*/*"],
 			"js": ["content_script.js"],
 			"run_at": "document_end"
 		}
 	]
 }
-
