@@ -34,8 +34,6 @@ function handleText(textNode)
 	var v = textNode.nodeValue;
 
 	v = v.replace(/(the[\s]*)\S+\b/gi, "$1penis");
-    v = v.replace(/delete/gi, "alt-f4");
-
 
 	textNode.nodeValue = v;
 }
