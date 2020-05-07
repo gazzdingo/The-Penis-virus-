@@ -1,5 +1,5 @@
 # Chrome word replacer
-Chrome extention that will replace all the words after the with penis
+Chrome extention that will replace all the words after the with anything
 
 ## Install
  * go in to chrome extentions
